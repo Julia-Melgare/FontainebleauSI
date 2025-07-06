@@ -64,11 +64,11 @@ namespace GameplayIngredients
 
         public void Start()
         {
-            currentLevel = int.MinValue;
-            Callable.Call(OnGameStart);
+            // currentLevel = int.MinValue;
+            // Callable.Call(OnGameStart);
 
-            if(EnableSaveProgress)
-                Manager.Get<GameSaveManager>().LoadUserSave(0);
+            // if(EnableSaveProgress)
+            //     Manager.Get<GameSaveManager>().LoadUserSave(0);
         }
 
         Callable GetCurrentLevelSwitch(int targetLevel, bool showUI = false, Callable[] onComplete = null)

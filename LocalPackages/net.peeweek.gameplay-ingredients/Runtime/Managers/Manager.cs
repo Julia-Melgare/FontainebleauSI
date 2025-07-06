@@ -28,7 +28,7 @@ namespace GameplayIngredients
 
         static readonly Type[] kAllManagerTypes = GetAllManagerTypes();
 
-        [RuntimeInitializeOnLoadMethod]
+        //[RuntimeInitializeOnLoadMethod]
         static void AutoCreateAll()
         {
             var exclusionList = GameplayIngredientsSettings.currentSettings.excludedeManagers;
