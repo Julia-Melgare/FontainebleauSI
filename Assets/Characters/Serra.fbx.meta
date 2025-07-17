@@ -1,0 +1,569 @@
+fileFormatVersion: 2
+guid: c57b2a36a8bf01f4fa26f2359e70483e
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: MocapSource_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MocapSource_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Serra(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0.016645087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: body 1
+      parentName: body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body 2
+      parentName: body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_L
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: eye_L 1
+      parentName: eye_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_L 2
+      parentName: eye_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_R
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: eye_R 1
+      parentName: eye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_R 2
+      parentName: eye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyelash_L
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: eyelash_L 1
+      parentName: eyelash_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyelash_L 2
+      parentName: eyelash_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyelash_R
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: eyelash_R 1
+      parentName: eyelash_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyelash_R 2
+      parentName: eyelash_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tooth
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: tooth 1
+      parentName: tooth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tooth 2
+      parentName: tooth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: hair 1
+      parentName: hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair 2
+      parentName: hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cloth 12
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 13
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 14
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 15
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 25
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 27
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 28
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: MocapSource_Reference
+      parentName: Serra(Clone)
+      position: {x: 0.0028757094, y: -0.00006054, z: -0.00021053314}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_Hips
+      parentName: MocapSource_Reference
+      position: {x: -0.0028567128, y: 0.888672, z: -0.033531018}
+      rotation: {x: 0.52506113, y: -0.47361463, z: -0.52506113, w: 0.47361463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftUpLeg
+      parentName: MocapSource_Hips
+      position: {x: 0.0030064564, y: 0.014670352, z: 0.101820774}
+      rotation: {x: -0.057295326, y: -0.0029231866, z: 0.9983405, w: -0.0050032623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftLeg
+      parentName: MocapSource_LeftUpLeg
+      position: {x: -0.4206665, y: 0.000004419344, z: 0.00000007613614}
+      rotation: {x: 0.00001947143, y: -0.0000001808175, z: -0.001056508, w: 0.99999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftFoot
+      parentName: MocapSource_LeftLeg
+      position: {x: -0.36934203, y: 0.0000012369335, z: 0.00000013964922}
+      rotation: {x: -0.02558802, y: -0.05134615, z: 0.4874266, w: 0.8712773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftToeBase
+      parentName: MocapSource_LeftFoot
+      position: {x: -0.1404111, y: -0.000000014275584, z: 0.000000076293944}
+      rotation: {x: -0.000000019984652, y: -0.0000000066860215, z: -2.2595509e-17,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightUpLeg
+      parentName: MocapSource_Hips
+      position: {x: 0.0030064178, y: 0.014670351, z: -0.101820774}
+      rotation: {x: -0.002959162, y: 0.057443622, z: 0.0044833077, w: 0.9983343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightLeg
+      parentName: MocapSource_RightUpLeg
+      position: {x: 0.42066687, y: -0.0000037415439, z: -0.00000007121965}
+      rotation: {x: 0.00000014110297, y: 0.000000006727461, z: -0.000005042455, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightFoot
+      parentName: MocapSource_RightLeg
+      position: {x: 0.369342, y: -0.0000020132516, z: -0.000000017592594}
+      rotation: {x: -0.0256831, y: -0.05144649, z: 0.48695818, w: 0.87153053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightToeBase
+      parentName: MocapSource_RightFoot
+      position: {x: 0.1404111, y: 0.000000024044425, z: -0.0000000126745405}
+      rotation: {x: 0.000025403131, y: 0.00000005464229, z: 8.4914115e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_Spine
+      parentName: MocapSource_Hips
+      position: {x: -0.101533964, y: -0.000000020373031, z: -0.0000000013818562}
+      rotation: {x: -1.06846457e-16, y: -1.0758963e-16, z: 0.06755112, w: 0.99771583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_Spine1
+      parentName: MocapSource_Spine
+      position: {x: -0.10100436, y: 0.000000078618356, z: 0.000000008294586}
+      rotation: {x: 0, y: -6.548162e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_Spine2
+      parentName: MocapSource_Spine1
+      position: {x: -0.10100444, y: 0.000000087036916, z: 0.000000008050962}
+      rotation: {x: 6.993723e-18, y: 1.08918054e-16, z: 0.03076397, w: 0.9995267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftShoulder
+      parentName: MocapSource_Spine2
+      position: {x: -0.1771111, y: -0.018178225, z: 0.06713918}
+      rotation: {x: -0.47600764, y: 0.52289265, z: 0.47600764, w: 0.52289265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftArm
+      parentName: MocapSource_LeftShoulder
+      position: {x: -0.10070869, y: 0.000000004744297, z: -0.00000000461016}
+      rotation: {x: 0.7071068, y: 0.00000013697728, z: -0.00000005268357, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftForeArm
+      parentName: MocapSource_LeftArm
+      position: {x: -0.32292217, y: 0.000011581928, z: 0.0000072600283}
+      rotation: {x: -0.000000027736377, y: -0.0000005535313, z: 0.0000012547657, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_LeftHand
+      parentName: MocapSource_LeftForeArm
+      position: {x: -0.17544742, y: -0.00000036471775, z: 0.0000000144202215}
+      rotation: {x: -0.000000011519928, y: -0.000000031170412, z: 0.00000007287635,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightShoulder
+      parentName: MocapSource_Spine2
+      position: {x: -0.17711121, y: -0.01817821, z: -0.06713914}
+      rotation: {x: 0.52289265, y: 0.47600764, z: -0.52289265, w: 0.47600764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightArm
+      parentName: MocapSource_RightShoulder
+      position: {x: 0.1007087, y: 0.00000000474088, z: -0.00000000460994}
+      rotation: {x: 0.7071068, y: 0.00000017011321, z: 0.0000000015258037, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightForeArm
+      parentName: MocapSource_RightArm
+      position: {x: 0.32292274, y: -0.000009731968, z: -0.0000064572987}
+      rotation: {x: -0.000000013215658, y: 0.0000003728485, z: -0.00000108805, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_RightHand
+      parentName: MocapSource_RightForeArm
+      position: {x: 0.17544782, y: 0.00000038909107, z: 0.00000014436377}
+      rotation: {x: 0.000000074408426, y: 0.000000010442118, z: 0.00000007459946,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_Neck
+      parentName: MocapSource_Spine2
+      position: {x: -0.27159885, y: 0.000000460815, z: 0.000000029308087}
+      rotation: {x: -2.215594e-26, y: 4.1389095e-18, z: -0.06759352, w: 0.99771297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MocapSource_Head
+      parentName: MocapSource_Neck
+      position: {x: -0.10418497, y: 0.000000028264228, z: 0.0000000035177983}
+      rotation: {x: 6.162976e-33, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cloth 29
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 30
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 31
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 32
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 33
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: Cloth 34
+      parentName: Serra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
