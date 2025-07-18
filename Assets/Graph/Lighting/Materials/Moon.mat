@@ -163,3 +163,4 @@ Material:
     - _EmissiveColor: {r: 24.74445, g: 24.74445, b: 24.74445, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _UnlitColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnlitColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
