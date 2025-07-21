@@ -22,11 +22,21 @@ public class LightingTransitionController : MonoBehaviour
 
     public Material fadeMaterial;
     
-    public float transitionDuration = 5f;
-
     void Start()
     {
-        StartCoroutine(Test());
+        //StartCoroutine(Test());
+    }
+
+    public void TransitionToNight()
+    {
+        StartCoroutine(ChangeLighting(sunsetPostProcess, nightPostProcess, sunsetSkyAndFog, nightSkyAndFog, sunsetSun,
+            nightMoon, 1.5f, Color.black, 16f));
+    }
+
+    public void TransitionToMorning()
+    {
+        StartCoroutine(ChangeLighting(nightPostProcess, morningPostProcess, nightSkyAndFog, morningSkyAndFog, nightMoon,
+            morningSun, 4f, Color.white, 14f));
     }
 
     private IEnumerator Test()
@@ -34,14 +44,14 @@ public class LightingTransitionController : MonoBehaviour
         yield return new WaitForSeconds(30f);
         //Debug.Log("Starting lighting transition...");
         StartCoroutine(ChangeLighting(sunsetPostProcess, nightPostProcess, sunsetSkyAndFog, nightSkyAndFog, sunsetSun,
-            nightMoon, 1.5f, Color.black));
-        yield return new WaitForSeconds(30f);
+            nightMoon, 1.5f, Color.black, 5f));
+        yield return new WaitForSeconds(60f);
         StartCoroutine(ChangeLighting(nightPostProcess, morningPostProcess, nightSkyAndFog, morningSkyAndFog, nightMoon,
-            morningSun, 4f, Color.white));
+            morningSun, 4f, Color.white,5f));
         yield return null;
     }
 
-    private IEnumerator ChangeLighting(Volume oldPostProcessVol, Volume newPostProcessVol, Volume oldSkyFogVol, Volume newSkyFogVol, Light oldLight, Light newLight, float newLightIntensity, Color fadeImageColor)
+    private IEnumerator ChangeLighting(Volume oldPostProcessVol, Volume newPostProcessVol, Volume oldSkyFogVol, Volume newSkyFogVol, Light oldLight, Light newLight, float newLightIntensity, Color fadeImageColor, float transitionDuration)
     {
         float time = 0f;
         float oldLightIntensity = oldLight.intensity;
